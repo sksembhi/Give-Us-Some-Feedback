@@ -1,6 +1,6 @@
 {
-  "name": "Projectx",
-  "tagline": "Let's see what we can do here ",
-  "body": "Work work work work work work work ",
+  "name": "Give Us Some Feedback",
+  "tagline": "If you're having any trouble getting set up, or just have a question, criticism, or suggestion on something, please let us know. ",
+  "body": "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScZR1FRLhF3uaU-1uOdy7d73eDq3dVNdMtvzqHCdUAqXXv2Sg/viewform?embedded=true\" width=\"760\" height=\"500\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
