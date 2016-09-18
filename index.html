@@ -19,7 +19,31 @@
     </section>
 
     <section class="main-content">
-      
+      <div>
+<div id="form-result"></div>
+{!! Form::open(array('url'=&gt;'testimonial', 'id'=&gt;'form-testimonial', 'class'=&gt;'form-horizontal','files' =&gt; true , 'parsley-validate'=&gt;'','novalidate'=&gt;' ')) !!}
+
+    <div>
+        <div> Fullname * </div>
+         {!! Form::text('fullname', null,array('class'=&gt;'form-control', 'placeholder'=&gt;' Your full name here ',   )) !!} 
+    </div>
+
+    <div>
+        <div> Comments * </div>
+         {!! Form::textarea('comment', null,array('class'=&gt;'form-control', 'placeholder'=&gt;'Write your comment here',   )) !!} 
+    </div>  
+
+    <div>
+
+          Send 
+    </div>  
+
+{!! Form::close() !!}
+</div>
+
+
+
+
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/sksembhi/Give-Us-Some-Feedback">Give Us Some Feedback</a> is maintained by <a href="https://github.com/sksembhi">sksembhi</a>.</span>
